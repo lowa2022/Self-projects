@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c87c9;
+}
+
+h1, table.table caption {
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+}
+table, th, td {
+    text-align: center; padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightblue;
+  width: 600px;
+
+}
+img {
+    width: 200px; height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    border-collapse: separate;
+  
+    border-spacing: 2px;
+}
+caption {
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+.picture{
+    border:3px solid blue;
+}
+
+
+
